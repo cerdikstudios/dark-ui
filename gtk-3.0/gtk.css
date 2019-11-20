@@ -30,7 +30,7 @@ notebook:focus tab,
 }
 
 .background.csd {
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 0;
 }
 
 .background.maximized, .background.solid-csd {
