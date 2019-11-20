@@ -1,25 +1,34 @@
-gtk-color-scheme = "base_color: #ffffff"
-gtk-color-scheme = "text_color: #333333"
-gtk-color-scheme = "bg_color: #ffffff"
-gtk-color-scheme = "fg_color: #333333"
-gtk-color-scheme = "tooltip_bg_color: #000000"
-gtk-color-scheme = "tooltip_fg_color: #ffffff"
-gtk-color-scheme = "selected_bg_color: #15a6f0"
-gtk-color-scheme = "selected_fg_color: #ffffff"
-gtk-color-scheme = "insensitive_bg_color: #ffffff"
-gtk-color-scheme = "insensitive_fg_color: #bebebe"
-gtk-color-scheme = "notebook_bg: #ffffff"
-gtk-color-scheme = "dark_sidebar_bg: #ffffff"
-gtk-color-scheme = "link_color: #15a6f0"
-gtk-color-scheme = "menu_bg: #ffffff"
-gtk-color-scheme = "menu_fg: #333333"
+# Based on Bridge by ScionicSpectre and Adwaita by GNOME
+# vim:set ts=2 sw=2 sts=2 ai et:
+#
+# This is the GTK+ 2 version of Basic_Light. It's whole purpose is to look as the
+# GTK+ 3 version as much as possible until GTK+ 2 dies completely.
+#
+# Note: comments for explaining styles are on the bottom of each file beside the
+# widget matches.
 
-gtk-icon-sizes = "gtk-button=16,16" # This makes button icons smaller.
-gtk-auto-mnemonics = 1
+# Declare the colours used throughout the theme.
+# There shouldn't be any fiddling with them in the theme files themselves in
+# order to not mess up the dark theme.
+
+# Text/base
+gtk-color-scheme = "text_color:#241f1c\nbase_color:#ffffff"
+# Foreground/background
+gtk-color-scheme = "fg_color:#241f1c\nbg_color:#ffffff"
+# Selected foreground/background
+gtk-color-scheme = "selected_fg_color:#ffffff\nselected_bg_color:#cd2cd8"
+# Titlebar foreground/background
+gtk-color-scheme = "titlebar_fg_color:#241f1c\ntitlebar_bg_color:#ffffff"
+# Tooltips foreground/background
+gtk-color-scheme = "tooltip_fg_color:#ffffff\ntooltip_bg_color:#616161"
+# Links
+gtk-color-scheme = "link_color:#cd2cd8\nvisited_link_color:#E040FB"
+
+# Set GTK settings
+gtk-auto-mnemonics              = 1
 gtk-primary-button-warps-slider = 1
 
+# And hand over the control to the theme files
 include "main.rc"
 include "apps.rc"
-include "panel.rc"
-include "xfce-notify.rc"
-include "menubar-toolbar.rc"
+include "hacks.rc"
