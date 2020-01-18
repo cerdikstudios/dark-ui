@@ -856,7 +856,7 @@ spinbutton:not(.vertical) button, notebook > header tab button.flat, button.side
 }
 
 .linked.vertical > button:only-child {
-  border-radius: 20px;
+  border-radius: 0;
 }
 
 .linked:not(.vertical) > spinbutton:first-child:not(.vertical), .linked:not(.vertical) > entry:first-child, combobox.linked button:nth-child(2):dir(rtl), combobox > .linked > button:first-child, .linked:not(.vertical) > combobox:first-child > box > button.combo {
@@ -868,7 +868,7 @@ spinbutton:not(.vertical) button, notebook > header tab button.flat, button.side
 }
 
 .linked:not(.vertical) > spinbutton:only-child:not(.vertical), .linked:not(.vertical) > entry:only-child, combobox > .linked > button:only-child, .linked:not(.vertical) > combobox:only-child > box > button.combo {
-  border-radius: 20px 20px 0 0;
+  border-radius: 20px 20px 20px 20px;
 }
 
 .linked.vertical > spinbutton:first-child:not(.vertical), .linked.vertical > entry:first-child, .linked.vertical > combobox:first-child > box > button.combo {
@@ -880,7 +880,7 @@ spinbutton:not(.vertical) button, notebook > header tab button.flat, button.side
 }
 
 .linked.vertical > spinbutton:only-child:not(.vertical), .linked.vertical > entry:only-child, .linked.vertical > combobox:only-child > box > button.combo {
-  border-radius: 20px 20px 0 0;
+  border-radius: 0 0 0 0;
 }
 
 /* menu buttons */
