@@ -1,20 +1,20 @@
 #XfceNotifyWindow {
-    background-color: #ebebeb;
-    border-radius: 5px;
-    border: 1px solid rgb(207, 207, 207);
+    background-color: #222222;
+    border-radius: 1px;
+    border: 1px solid rgb(5, 5, 5);
     padding: 20px;
-    color: #202020;
+    color: #dadada;
 }
 
 #XfceNotifyWindow:hover {
     border-width: 2px;
-    border-color: #dadada;
-    background-color: #fafafa;
+    border-color: rgb(0, 0, 0);
+    background-color: #111111;
 }
 
 #XfceNotifyWindow label,
 #XfceNotifyWindow image {
-    color: #202020;
+    color: #e6e6e6;
 }
 
 #XfceNotifyWindow label#summary {
@@ -24,13 +24,13 @@
 #XfceNotifyWindow button {
     border-style: none;
     background-image: none;
-    background-color: #cacaca;
-    color: #202020;
+    background-color: #2e2e2e;
+    color: #d4d4d4;
 }
 
 #XfceNotifyWindow button:hover {
     border-style: none;
     background-image: none;
-    background-color: #eeeeee;
-    color: #404040;
+    background-color: #1d1d1d;
+    color: #e4e4e4;
 }

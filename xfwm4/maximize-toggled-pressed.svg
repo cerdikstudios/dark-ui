@@ -1,1 +1,1 @@
-maximize-toggled-prelight.svg
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><path fill="#1a1a1a" d="M0 0h32v32H0z"/><path fill="#1a1a1a" fill-opacity=".1" d="M0 0h32v1H0z"/><circle r="8" cy="16" cx="16" fill="#45c847" opacity=".6"/><path d="M13 13v6h6v-6zm2 2h2v2h-2z" fill="#2b3038"/></svg>

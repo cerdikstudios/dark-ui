@@ -1,8 +1,7 @@
 /* XPM */
 static char * bottom_active_xpm[] = {
-"2 2 3 1",
+"2 2 2 1",
 " 	c None",
-".	c #FFFFFF",
-"b  c #555555",
-"b.",
-"b."};
+".	c #1a1a1a",
+"..",
+".."};
